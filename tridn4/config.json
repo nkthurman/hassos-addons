@@ -10,7 +10,7 @@
   "panel_icon": "mdi:remote-desktop",
   "ingress": true,
   "ingress_port": 8443,
-  "image": "nkthurman/tridn4",
+  "image": "nkthurman/tridn4:latest",
   "options": {},
   "schema": {},
   "ports": {
