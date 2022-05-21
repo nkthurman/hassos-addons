@@ -4,7 +4,7 @@
 
 https://github.com/nkthurman/addon-tridn4
 
-2. Find the "Tridn4" add-on and click it.
+2. Find the "Niagara 4.10" add-on and click it.
 3. Click on the "INSTALL" button.
 
 
