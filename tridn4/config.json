@@ -1,12 +1,13 @@
 {
-  "name": "Assistant Relay BETA",
-  "version": "4.0.0b2",
-  "slug": "assistant_relay_beta",
-  "description": "Send (broadcast) commands to your Google Assistant via REST command",
-  "arch": ["amd64", "armv7"],
+  "name": "Niagara 4.10",
+  "version": "4.10",
+  "slug": "niagara_4",
+  "description": "Build Management System for all types of control systems",
+  "arch": ["amd64"],
   "startup": "services",
-  "url": "https://github.com/Apipa169/Assistant-Relay-for-Hassio",
+  "url": "https://www.tridium.com/us/en/Products/niagara",
   "boot": "auto",
+  "panel_icon": "mdi:remote-desktop",
   "options": {
   },
   "schema": {
