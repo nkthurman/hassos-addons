@@ -1,0 +1,30 @@
+{
+    "name": "Niagara4.10",
+    "version": "4.10",
+    "slug": "niagara4",
+    "description": "Building Management System for integrating all types of control systems.",
+    "arch": [
+      "amd64"
+    ],
+    "url": "https://www.tridium.com/us/en/Products/niagara",
+    "startup": "application",
+    "boot": "auto",
+    "panel_icon": "mdi:remote-desktop",
+    "ingress": true,
+    "ingress_port": 8443,
+    "image": "nkthurman/tridn4",
+    "options": {},
+    "ports": {
+    "8443/tcp": 8443
+    "4911/tcp": 4911
+    "5011/tcp": 5011
+    },
+    "ports_description": {
+      "8443/tcp": "Web interface"
+      "4911/tcp": "Platform interface"
+      "5011/tcp": "Platform interface"
+    },
+    "schema": {},
+    "hassio_role": "default"
+}
+
