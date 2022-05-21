@@ -1,6 +1,6 @@
 {
   "name": "Niagara 4.10",
-  "version": "latest",  # image tag
+  "version": "latest",
   "slug": "niagara_4",
   "description": "Build Management System for all types of control systems",
   "arch": ["amd64"],
