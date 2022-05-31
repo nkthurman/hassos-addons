@@ -1,0 +1,69 @@
+---
+name: "Niagara 4.10"
+version: latest
+slug: niagara_4
+description: Building Management System for all types of control systems
+url: https://www.tridium.com/us/en/Products/niagara
+startup: application
+image: nkthurman/tridn4
+# ingress: true
+# ingress_port: 0
+# ingress_stream: true
+# panel_icon: mdi:console
+# panel_title: Terminal
+arch:
+  - amd64
+ports:
+#  8080/tcp: 8080
+  8443/tcp: 8443,
+  4911/tcp: 4911,
+  5011/tcp: 5011
+ports_description:
+#  8080/tcp: Web interface
+  8443/tcp: Web interface
+  4911/tcp: Platform interface
+  5011/tcp: Platform interface
+# hassio_api: true
+# hassio_role: manager
+hassio_role: default
+# host_network: true
+# apparmor: false
+# host_dbus: true
+# docker_api: true
+# map:
+#   - config:rw
+#   - ssl:rw
+#   - addons:rw
+#   - media:rw
+#   - share:rw
+#   - backup:rw
+# journald: true
+environment:
+  REPO: null
+# options:
+#   environment:
+#     EXTENSIONS: auth-totp
+  #   password: ""
+  #   authorized_keys: []
+  #   sftp: false
+  #   compatibility_mode: false
+  #   allow_agent_forwarding: false
+  #   allow_remote_port_forwarding: false
+  #   allow_tcp_forwarding: false
+  # zsh: true
+  # share_sessions: false
+  # packages: []
+  # init_commands: []
+ schema:
+  environment:
+    REPO: str
+  #   compatibility_mode: bool
+  #   allow_agent_forwarding: bool
+  #   allow_remote_port_forwarding: bool
+  #   allow_tcp_forwarding: bool
+  # zsh: bool
+  # share_sessions: bool
+  # packages:
+  #   - str
+  # init_commands:
+  #   - str
