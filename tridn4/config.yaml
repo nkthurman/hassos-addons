@@ -2,7 +2,7 @@
 name: "Niagara 4.10"
 version: 2.0
 slug: niagara_4
-description: Building Management System for all types of control systems. v0.1
+description: Building Management System for all types of control systems. v0.2
 url: https://www.tridium.com/us/en/Products/niagara
 startup: application
 image: nkthurman/tridn4
