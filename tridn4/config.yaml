@@ -38,7 +38,7 @@ hassio_role: default
 #   - backup:rw
 # journald: true
 environment:
-  REPO: null
+  REPO: test
 #  options:
 #   environment:
 #     EXTENSIONS: auth-totp
