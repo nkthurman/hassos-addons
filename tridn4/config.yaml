@@ -38,8 +38,8 @@ hassio_role: default
 #   - share:rw
 #   - backup:rw
 # journald: true
-environment:
-  REPO: null
+#environment:
+#  REPO: null
 #  options:
 #   environment:
 #     EXTENSIONS: auth-totp
@@ -54,16 +54,16 @@ environment:
   # share_sessions: false
   # packages: []
   # init_commands: []
-schema:
-  environment:
-    REPO: str
-  #   compatibility_mode: bool
-  #   allow_agent_forwarding: bool
-  #   allow_remote_port_forwarding: bool
-  #   allow_tcp_forwarding: bool
-  # zsh: bool
-  # share_sessions: bool
-  # packages:
-  #   - str
-  # init_commands:
-  #   - str
+#schema:
+#  environment:
+#    REPO: str
+#   compatibility_mode: bool
+#   allow_agent_forwarding: bool
+#   allow_remote_port_forwarding: bool
+#   allow_tcp_forwarding: bool
+# zsh: bool
+# share_sessions: bool
+# packages:
+#   - str
+# init_commands:
+#   - str
