@@ -11,8 +11,7 @@ image: nkthurman/tridn4
 # ingress_stream: true
 # panel_icon: mdi:console
 # panel_title: Terminal
-arch:
-  - amd64
+arch: amd64
 ports:
 #  8080/tcp: 8080
   8443/tcp: 8443,
