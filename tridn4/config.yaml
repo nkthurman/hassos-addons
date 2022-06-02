@@ -1,7 +1,7 @@
 ---
 name: "Niagara 4.10"
 version: 2.0
-slug: niagara_4
+slug: niagara4
 description: Building Management System for all types of control systems
 url: https://www.tridium.com/us/en/Products/niagara
 startup: application
@@ -11,16 +11,18 @@ image: nkthurman/tridn4
 # ingress_stream: true
 # panel_icon: mdi:console
 # panel_title: Terminal
-arch: amd64
+arch:
+  - aarch64
+  - amd64
 ports:
   8443/tcp: 8443
-  4911/tcp: 4911
-  5011/tcp: 5011
+#  4911/tcp: 4911
+#  5011/tcp: 5011
 ports_description:
 #  8080/tcp: Web interface
   8443/tcp: Web interface
-  4911/tcp: Platform interface
-  5011/tcp: Platform interface
+#  4911/tcp: Platform interface
+#  5011/tcp: Platform interface
 # hassio_api: true
 # hassio_role: manager
 hassio_role: default
