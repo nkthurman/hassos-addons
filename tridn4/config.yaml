@@ -40,7 +40,7 @@ hassio_role: default
 # journald: true
 environment:
   REPO: null
-# options:
+#  options:
 #   environment:
 #     EXTENSIONS: auth-totp
   #   password: ""
@@ -54,7 +54,7 @@ environment:
   # share_sessions: false
   # packages: []
   # init_commands: []
- schema:
+schema:
   environment:
     REPO: str
   #   compatibility_mode: bool
